@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDIT HERE: Page title shown in the browser tab and in search results -->
+  <title>Darshan B M </title>
+
+  <!-- EDIT HERE: Short description used by search engines and link previews -->
+  <meta name="description" content="Darshan B M is a Computer Science and Engineering student and MathCo trainee building AI-driven applications and scalable web platforms.">
+  <meta name="author" content="Darshan B M">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#09090b">
+
+  <!-- Fonts: Fraunces (headings) + Outfit (body). Needs internet; falls back to system fonts offline. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Icon library (do not edit). Icons are used further down with <use href="#i-name"> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M2 13h20"/></symbol>
+      <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9zM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></symbol>
+      <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9a2.2 2.2 0 0 0-2.9-.1zM12 15l-3-3a22 22 0 0 1 2-3.9A12.9 12.9 0 0 1 22 2c0 2.7-.8 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.6-3 2-4c1.6-1.1 5 0 5 0M12 15v5s3-.6 4-2c1.1-1.6 0-5 0-5"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></symbol>
+      <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+      <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><rect width="24" height="24" rx="4" fill="#0a66c2" stroke="none"/><path fill="#fff" stroke="none" d="M6.9 9.6h2.5V18H6.9zM8.1 5.9a1.45 1.45 0 1 1 0 2.9 1.45 1.45 0 0 1 0-2.9zM10.9 9.6h2.4v1.1c.4-.7 1.3-1.3 2.6-1.3 2.6 0 3.1 1.7 3.1 3.9V18h-2.5v-4.2c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V18h-2.5z"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path fill="#f1ece7" stroke="none" d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17 5.8 18 6.1 18 6.1c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.1v3.1c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path fill="#ea4335" stroke="none" d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 17.5z"/><path fill="none" stroke="#fff" stroke-width="1.8" d="m3 7 9 6.5L21 7"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path fill="#22a559" stroke="none" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- Faint diagonal-line background that stays fixed while you scroll (decoration) -->
+  <div class="bg-lines" aria-hidden="true"></div>
+
+  <!-- =====================================================================
+       TOP BAR = announcement ticker + navigation (both stay pinned on scroll)
+       ===================================================================== -->
+  <div class="topbar" id="top">
+
+    <!-- ANNOUNCEMENT TICKER
+         EDIT HERE: Change the messages. The <b> part is highlighted text.
+         Each message list appears TWICE on purpose (the second copy makes the
+         scroll loop seamless) – edit both copies the same way. -->
+    <div class="ticker" role="region" aria-label="Announcements">
+      <span class="ticker__badge"><i class="dot" aria-hidden="true"></i>Available</span>
+      <div class="ticker__viewport">
+        <div class="ticker__track">
+
+          <div class="ticker__group">
+            <span class="tick"><svg class="ic"><use href="#i-rocket"/></svg>I build <b>AI-driven applications</b> </span>
+            <i class="diamond" aria-hidden="true"></i>
+            <span class="tick"><svg class="ic"><use href="#i-briefcase"/></svg>Open to <b>Software Development / AI-ML</b> roles</span>
+            <i class="diamond" aria-hidden="true"></i>
+            <!-- EDIT HERE: Your email in the next line -->
+            <span class="tick"><svg class="ic"><use href="#i-send"/></svg>Let's build something — <b>darshanbm15@gmail.com</b></span>
+            <i class="diamond" aria-hidden="true"></i>
+            <span class="tick"><svg class="ic"><use href="#i-sparkles"/></svg>Trainee at <b>MathCo</b></span>
+            <i class="diamond" aria-hidden="true"></i>
+          </div>
+
+          <div class="ticker__group" aria-hidden="true">
+            <span class="tick"><svg class="ic"><use href="#i-rocket"/></svg>I build <b>AI-driven applications</b> and web platforms</span>
+            <i class="diamond"></i>
+            <span class="tick"><svg class="ic"><use href="#i-briefcase"/></svg>Open to <b>Software Development / AI-ML</b> roles</span>
+            <i class="diamond"></i>
+            <span class="tick"><svg class="ic"><use href="#i-send"/></svg>Let's build something — <b>darshanbm15@gmail.com</b></span>
+            <i class="diamond"></i>
+            <span class="tick"><svg class="ic"><use href="#i-sparkles"/></svg>Trainee at <b>MathCo</b></span>
+            <i class="diamond"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVIGATION
+         EDIT HERE: Change your name (brand). Every link's href must match a section id
+         further down (href="#about" → id="about"). -->
+    <header class="nav">
+      <div class="nav__inner">
+        <a href="#home" class="nav__brand">Darshan B M</a>
+
+        <nav class="nav__links" id="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <!-- EDIT HERE (Achievements): to show this link, remove the comment marks AND turn on the
+               Achievements section further down. Your resume has no achievements yet.
+          <a href="#achievements">Achievements</a>
+          -->
+          <a href="#contact">Contact</a>
+          <!-- Mobile-only copies of the right-hand items -->
+          <a href="assets/Darshan_Res.pdf" class="nav__mobile-only" target="_blank" rel="noopener">Resume</a>
+          <a href="#contact" class="btn btn--light cut nav__mobile-only"><span class="cut__in">Get in touch <svg class="ic"><use href="#i-arrow-r"/></svg></span></a>
+        </nav>
+
+        <div class="nav__actions">
+          <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme">
+            <svg class="ic ic--sun"><use href="#i-sun"/></svg>
+            <svg class="ic ic--moon"><use href="#i-moon"/></svg>
+          </button>
+          <!-- EDIT HERE: Resume file. Replace assets/Darshan_Res.pdf with your newest PDF (same name) or change href -->
+          <a href="assets/Darshan_Res.pdf" class="nav__resume nav__desktop-only" target="_blank" rel="noopener">Resume</a>
+          <a href="#contact" class="btn btn--light cut nav__desktop-only"><span class="cut__in">Get in touch <svg class="ic"><use href="#i-arrow-r"/></svg></span></a>
+          <button class="icon-btn nav__toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+            <svg class="ic"><use href="#i-menu"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <main>
+
+    <!-- =====================================================================
+         HERO
+         ===================================================================== -->
+    <section id="home" class="hero">
+      <div class="hero__inner">
+
+        <!-- EDIT HERE: Add your profile image.
+             Put your photo in assets/images/ and change the src below.
+             A square photo works best; the corners are cut by CSS automatically. -->
+        <div class="hero__photo cut cut--strong reveal">
+          <div class="cut__in"><img src="assets/images/profile.jpg" alt="Darshan B M" width="450" height="450"></div>
+        </div>
+
+        <!-- EDIT HERE: Change your name -->
+        <h1 class="hero__name reveal">Darshan B M</h1><br>
+
+        <h3><span class="grad">Code With Purpose</span></h3>
+
+        <!-- EDIT HERE: Change your headline. Words inside <span class="grad"> get the pink-to-blue color. -->
+        <p class="hero__title reveal">I build intelligent solutions with AI, machine learning and full-stack development</p>
+
+        <!-- EDIT HERE: Change your one-line summary -->
+        <p class="hero__sub reveal">B.E. CSE @ The National Institute of Engineering · Trainee @ MathCo.<br> Hands-on with AIML,Python, Django, LangChain and Web Development</p>
+
+        <div class="hero__cta reveal">
+          <a href="#projects" class="btn btn--light cut"><span class="cut__in">View my work</span></a>
+          <!-- EDIT HERE: Resume PDF. Replace the file in assets/ or change href -->
+          <a href="assets/Darshan_Res.pdf" class="btn btn--dark cut" download><span class="cut__in">Download Resume</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         ABOUT
+         ===================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__tag">About</p>
+          <h2>Create Beyond Limits</h2>
+          <p class="section__sub">Get to know me a little better.</p>
+        </header>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <!-- EDIT HERE: Write your About Me paragraphs -->
+            <p>Hello! I'm Darshan B M, a Computer Science and Engineering student and a Trainee at MathCo, passionate about building intelligent solutions.</p>
+            <p>I work with AI, Machine Learning, Python, and full-stack development to turn ideas into real-world applications. With a strong foundation in Data Structures, OOP, and DBMS, I enjoy solving problems and creating innovative solutions.</p>
+            <p>I'm seeking a Software Development or AI/ML role to deliver innovative solutions.</p>
+
+            <!-- EDIT HERE: Highlights (add/remove <li> items; keep the icon) -->
+            <ul class="about__list">
+              <li><svg class="ic"><use href="#i-check"/></svg>AI/ML & Data Analytics</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Python & Machine Learning</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Full-Stack Web Development </li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Cricket Team Captain at Taluk Level</li>
+            </ul>
+          </div>
+
+          <!-- EDIT HERE: The four colored stat cards. Change the number (.stat__num) and label (.stat__label).
+               Examples you could add later: LeetCode problems solved, GitHub repositories, CGPA. -->
+          <div class="stats reveal">
+            <div class="stat stat--rose cut"><div class="cut__in"><span class="stat__num">3</span><span class="stat__label">Internships &amp; Roles</span></div></div>
+            <div class="stat stat--navy cut"><div class="cut__in"><span class="stat__num">5</span><span class="stat__label">Featured Projects</span></div></div>
+            <div class="stat stat--gold cut"><div class="cut__in"><span class="stat__num">3</span><span class="stat__label">Certifications</span></div></div>
+            <div class="stat stat--plum cut"><div class="cut__in"><span class="stat__num">2</span><span class="stat__label">Academic Programs</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         EXPERIENCE
+         EDIT HERE: To add a role, copy one whole <article class="timeline__item">…</article>
+         block and paste it above or below. Newest first.
+         ===================================================================== -->
+    <section id="experience" class="section">
+      <div class="container container--md">
+        <header class="section__head reveal">
+          <p class="section__tag">Experience</p>
+          <h2>My professional journey</h2>
+          <p class="section__sub"></p>
+        </header>
+
+        <div class="timeline">
+
+          <!-- ROLE 1 -->
+          <article class="timeline__item reveal">
+            <span class="timeline__node" aria-hidden="true"><svg class="ic"><use href="#i-briefcase"/></svg></span>
+            <div class="cut"><div class="cut__in">
+              <span class="timeline__date">Sep 2026 – Present</span>
+              <h3>Trainee</h3>
+              <!-- EDIT HERE: Company name. To make it a link, replace the <p> with:
+                   <a class="timeline__org" href="PASTE_COMPANY_URL" target="_blank" rel="noopener">MathCo <svg class="ic"><use href="#i-arrow-ur"/></svg></a> -->
+              <p class="timeline__org">MathCo</p>
+              <!-- EDIT HERE (optional): Add the work location (your resume has none), for example:
+                   <p class="timeline__loc">City, State</p> -->
+              <ul class="bullets">
+                <li>Contributing to a GE Vernova capstone project to develop a PMO dashboard for monitoring project performance.</li>
+                <li>Analyzed data sources and defined KPIs to track project progress, delivery, and risks.</li>
+                <li>Supporting data integration, data modeling, and dashboard design to enable data-driven decision-making.</li>
+              </ul>
+            </div></div>
+          </article>
+
+          <!-- ROLE 2 -->
+          <article class="timeline__item reveal">
+            <span class="timeline__node" aria-hidden="true"><svg class="ic"><use href="#i-briefcase"/></svg></span>
+            <div class="cut"><div class="cut__in">
+              <span class="timeline__date">Jan 2026 – Jul 2026</span>
+              <h3>AIML with Data Science Intern</h3>
+              <p class="timeline__org">Technologics Global Private Limited</p>
+              <ul class="bullets">
+                <li>Engineered an AI-powered Attention Shift Detector for online exam proctoring using YOLO11, MediaPipe, and OpenCV, enabling real-time face, eye, and head-pose tracking to flag attention shifts and suspicious behavior.</li>
+                <li>Applied core AI/ML concepts across data preprocessing, model development, and data analysis using Python and machine learning tools.</li>
+              </ul>
+            </div></div>
+          </article>
+
+          <!-- ROLE 3 -->
+          <article class="timeline__item reveal">
+            <span class="timeline__node" aria-hidden="true"><svg class="ic"><use href="#i-briefcase"/></svg></span>
+            <div class="cut"><div class="cut__in">
+              <span class="timeline__date">Jan 2025 – Mar 2025</span>
+              <h3>Full Stack Developer Intern</h3>
+              <p class="timeline__org">Sahasra Technology and Consultancy</p>
+              <ul class="bullets">
+                <li>Developed a Vehicle Tracking System in Python and Django, integrating the Google Maps API for real-time geolocation tracking and improved scalability and response times.</li>
+                <li>Implemented secure user authentication with Django's built-in tools, optimized SQL queries, and improved reliability through better resource management and error handling.</li>
+              </ul>
+            </div></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         EDUCATION
+         EDIT HERE: To add a school, copy one whole <article class="edu">…</article> block.
+         ===================================================================== -->
+    <section id="education" class="section">
+      <div class="container container--sm">
+        <header class="section__head reveal">
+          <p class="section__tag">Education</p>
+          <h2>My academic journey</h2>
+          <p class="section__sub">Where the foundations were built.</p>
+        </header>
+
+        <div class="edu-list">
+
+          <article class="edu cut cut--strong reveal"><div class="cut__in">
+            <!-- EDIT HERE: Institution logo.
+                 1) Put the logo file in assets/images/  2) Replace the <div class="edu__logo">…</div> line with:
+                 <img class="edu__logo" src="assets/images/nie-logo.png" alt="The National Institute of Engineering logo"> -->
+            <img class="edu__logo" src="assets/images/nie-logo.png" alt="The National Institute of Engineering logo">
+            <div class="edu__text">
+              <h3>The National Institute of Engineering</h3>
+              <p class="edu__degree">Bachelor of Engineering – Computer Science and Engineering</p>
+              <!-- EDIT HERE (optional): Add your CGPA / percentage, e.g. add " (8.5 CGPA)" at the end of the degree line above -->
+              <p class="edu__year">2023 – 2026</p>
+            </div>
+          </div></article>
+
+          <article class="edu cut cut--strong reveal"><div class="cut__in">
+           <img class="edu__logo" src="assets/images/jss.png" alt="The National Institute of Engineering logo">
+            <div class="edu__text">
+              <h3>JSS Polytechnic</h3>
+              <p class="edu__degree">Diploma in Computer Science</p>
+              <p class="edu__year">2020 – 2023</p>
+            </div>
+          </div></article>
+
+          <!-- EDIT HERE (optional): Add school / Class X–XII by copying one block above. Your resume does not list it. -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PROJECTS
+         EDIT HERE: To add a project, copy one whole <article class="project cut">…</article>
+         block and paste it inside the grid. Edit the title, bullets, tags, image and links.
+         ===================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__tag">Projects</p>
+          <h2>A World Without Boundaries</h2>
+          <p class="section__sub"></p>
+        </header>
+
+        <div class="project-grid">
+
+          <!-- PROJECT 1 -->
+          <article class="project cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Add project screenshots.
+                 Put the image in assets/projects/ then change src below (e.g. assets/projects/ai-document-qa.png). -->
+            <div class="project__media"><img src="assets/projects/Ai.png" alt="AI Document QA screenshot" loading="lazy"></div>
+            <div class="project__body">
+              <h3>AI Document QA</h3>
+              <ul class="bullets">
+                <li>Built a document Q&amp;A tool that lets users upload documents and receive accurate, real-time answers using LangChain and a locally hosted Ollama LLM.</li>
+              </ul>
+              <!-- EDIT HERE: Technologies used – add/remove <li> items -->
+              <ul class="tags"><li>Python</li><li>Streamlit</li><li>LangChain</li><li>Ollama LLM</li></ul>
+              <div class="project__links">
+                <!-- EDIT HERE: Paste the live demo URL in href below (delete this link if there is no demo) -->
+                
+                <a href="https://github.com/Darshan-B-M/AI-Document-QA" target="_blank" rel="noopener">GitHub <svg class="ic"><use href="#i-arrow-ur"/></svg></a>
+              </div>
+            </div>
+          </div></article>
+
+          <!-- PROJECT 2 -->
+          <article class="project cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Add project screenshots (assets/projects/feelify.png, then change src) -->
+            <div class="project__media"><img src="assets/projects/feel.png" alt="Feelify screenshot" loading="lazy"></div>
+            <div class="project__body">
+              <h3>Feelify</h3>
+              <ul class="bullets">
+                <li>Designed a music recommendation system that detects emotion from facial expressions using DeepFace and suggests personalized songs based on mood.</li>
+              </ul>
+              <ul class="tags"><li>Python</li><li>DeepFace</li></ul>
+              <div class="project__links">
+                <!-- EDIT HERE: Paste the live demo URL in href below (delete this link if there is no demo) -->
+                
+                <a href="https://github.com/Darshan-B-M/Feelify" target="_blank" rel="noopener">GitHub <svg class="ic"><use href="#i-arrow-ur"/></svg></a>
+              </div>
+            </div>
+          </div></article>
+
+          <!-- PROJECT 3 -->
+          <article class="project cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Add project screenshots (assets/projects/watchhub.png, then change src) -->
+            <div class="project__media"><img src="assets/projects/WatchHub.png" alt="WatchHub screenshot" loading="lazy"></div>
+            <div class="project__body">
+              <h3>WatchHub</h3>
+              <ul class="bullets">
+                <li>Developed a full-stack video streaming platform supporting user registration, content browsing, and smooth video playback.</li>
+              </ul>
+              <ul class="tags"><li>Python</li><li>Django</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+              <div class="project__links">
+                
+                <a href="https://github.com/Darshan-B-M/WatchHub-Netflix-Clone" target="_blank" rel="noopener">GitHub <svg class="ic"><use href="#i-arrow-ur"/></svg></a>
+              </div>
+            </div>
+          </div></article>
+
+           <article class="project cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Add project screenshots (assets/projects/watchhub.png, then change src) -->
+            <div class="project__media"><img src="assets/projects/place.png" alt="WatchHub screenshot" loading="lazy"></div>
+            <div class="project__body">
+              <h3>Placement Website</h3>
+              <ul class="bullets">
+                <li>Created a job and internship portal using Spring Boot, MySQL, HTML, and CSS, helping 200+ students 
+apply for opportunities with features like authentication, job listings, and application tracking</li>
+              </ul>
+              <ul class="tags"><li>Java</li><li>Springboot</li><li>MySQL</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+              <div class="project__links">
+                
+                <a href="https://github.com/Darshan-B-M/Placement_website" target="_blank" rel="noopener">GitHub <svg class="ic"><use href="#i-arrow-ur"/></svg></a>
+              </div>
+            </div>
+          </div></article>
+
+
+           <article class="project cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Add project screenshots (assets/projects/watchhub.png, then change src) -->
+            <div class="project__media"><img src="assets/projects/Vision.png" alt="WatchHub screenshot" loading="lazy"></div>
+            <div class="project__body">
+              <h3>VisionMate</h3>
+              <ul class="bullets">
+                <li>VisionMate is an AI-powered assistive system that uses YOLOv8 and computer vision to detect objects, measure their distance, and provide voice assistance to visually impaired people.</li>
+              </ul>
+              <ul class="tags"><li>YOLOv8</li><li>Python</li><li>OpenCV</li><li>Speech recognition</li><li>text-to-speech</li></ul>
+              <div class="project__links">
+                
+                <a href="https://github.com/Darshan-B-M/VisionMate-Object-Detection" target="_blank" rel="noopener">GitHub <svg class="ic"><use href="#i-arrow-ur"/></svg></a>
+              </div>
+            </div>
+          </div></article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SKILLS
+         EDIT HERE: Each group is one card. Add a skill by copying an <li> inside its
+         <ul class="tags">. Add a group by copying a whole <div class="skill-group cut">.
+         ===================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__tag">Skills</p>
+          <h2>My stack &amp; toolkit</h2>
+          <p class="section__sub">The stack behind my work</p>
+        </header>
+
+        <div class="skills-grid">
+          <div class="skill-group cut reveal"><div class="cut__in">
+            <h3>Languages</h3>
+            <ul class="tags"><li>Python</li><li>Java</li></ul>
+          </div></div>
+          <div class="skill-group cut reveal"><div class="cut__in">
+            <h3>Technologies &amp; Tools</h3>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>MySQL</li><li>Artificial Intelligence</li><li>Machine Learning</li><li>Git</li></ul>
+          </div></div>
+          <div class="skill-group cut reveal"><div class="cut__in">
+            <h3>Coursework</h3>
+            <ul class="tags"><li>Data Structures &amp; Algorithms</li><li>Object-Oriented Programming</li><li>Operating Systems</li><li>DBMS</li></ul>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CERTIFICATIONS
+         EDIT HERE: To add a certificate, copy one whole <article class="cert cut">…</article>
+         block and paste it inside the grid. Then edit its 5 parts:
+           1) image (src)   2) title   3) issuing organization   4) date   5) verification link (href)
+         ===================================================================== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__tag">Certifications</p>
+          <h2>Continuous learning</h2>
+          <p class="section__sub">Professional development across AI and machine learning.</p>
+        </header>
+
+        <div class="cert-grid">
+
+          <!-- CERTIFICATE 1 -->
+          <article class="cert cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Paste the certificate verification URL in href (this wraps the image and the title).
+                 Delete the <a> tags if you have no link. -->
+            <a class="cert__link" href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener">
+              <!-- EDIT HERE: Place certificate image in assets/certificates/ and update src -->
+              <div class="cert__media"><img src="assets/certificates/Oracle AI.jpeg" alt="Agentic AI Foundation Associate certificate" loading="lazy"></div>
+            </a>
+            <div class="cert__body">
+              <!-- EDIT HERE: Certificate title -->
+              <h3>Agentic AI Foundation Associate</h3>
+              <div class="cert__meta">
+                <!-- EDIT HERE: Issuing organization (left) and date (right) -->
+                <span class="cert__org">Oracle</span>
+                <span class="cert__date"></span>
+              </div>
+            </div>
+          </div></article>
+
+          <!-- CERTIFICATE 2 -->
+          <article class="cert cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Paste the certificate verification URL in href -->
+            <a class="cert__link" href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener">
+              <!-- EDIT HERE: Place certificate image in assets/certificates/ and update src -->
+              <div class="cert__media"><img src="assets/certificates/AWS.png" alt="Fundamentals of Machine Learning and Artificial Intelligence certificate" loading="lazy"></div>
+            </a>
+            <div class="cert__body">
+              <h3>Fundamentals of Machine Learning and Artificial Intelligence</h3>
+              <div class="cert__meta"><span class="cert__org">AWS</span><span class="cert__date"></span></div>
+            </div>
+          </div></article>
+
+          
+          
+            <!-- <a class="cert__link" href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener">
+             
+              <div class="cert__media"><img src="assets/certificates/certificate-placeholder.svg" alt="Introduction to AI certificate" loading="lazy"></div>
+            </a>
+            <div class="cert__body">
+              <h3>Introduction to AI</h3>
+              <div class="cert__meta"><span class="cert__org">LearnTube</span><span class="cert__date">Month YYYY</span></div>
+            </div>
+          </div></article>  -->
+
+          <!-- CERTIFICATE 4 -->
+          <article class="cert cut reveal"><div class="cut__in">
+            <!-- EDIT HERE: Paste the certificate verification URL in href -->
+            <a class="cert__link" href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener">
+              <!-- EDIT HERE: Place certificate image in assets/certificates/ and update src -->
+              <div class="cert__media"><img src="assets/certificates/Machine Learning.png" alt="Machine Learning certificate" loading="lazy"></div>
+            </a>
+            <div class="cert__body">
+              <h3>Machine Learning</h3>
+              <div class="cert__meta"><span class="cert__org">University of Washington (Coursera)</span><span class="cert__date"></span></div>
+            </div>
+          </div></article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         ACHIEVEMENTS (turned off – your resume lists no achievements)
+         To turn it on: 1) remove the comment marks around the section below
+                        2) remove the comment marks around the Achievements link in the nav bar
+                        3) replace the sample text with your real achievements and add a photo.
+         ===================================================================== -->
+    <!-- ACHIEVEMENTS-SECTION-START
+    <section id="achievements" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__tag"># Achievements</p>
+          <h2>Milestones &amp; recognition</h2>
+          <p class="section__sub">A few moments I'm proud of.</p>
+        </header>
+        <div class="cert-grid">
+          <article class="cert cut reveal"><div class="cut__in">
+            <div class="cert__media"><img src="assets/certificates/certificate-placeholder.svg" alt="Achievement photo" loading="lazy"></div>
+            <div class="cert__body">
+              <h3>YOUR ACHIEVEMENT TITLE</h3>
+              <p class="cert__desc">One-line description of what you achieved.</p>
+            </div>
+          </div></article>
+        </div>
+      </div>
+    </section>
+    ACHIEVEMENTS-SECTION-END -->
+
+    <!-- =====================================================================
+         CONTACT
+         ===================================================================== -->
+    <section id="contact" class="section">
+      <div class="container container--md">
+        <header class="section__head reveal">
+          <p class="section__tag">Contact</p>
+          <h2>Let's connect &amp; build</h2>
+          <!-- EDIT HERE: Update your email, and add your city (your resume has no location), e.g.
+               "Based in City, State, India. Feel free to reach out via email at ..." -->
+          <p class="section__sub">Feel free to reach out via email at darshanbm15@gmail.com or connect below.</p>
+        </header>
+
+        <!-- EDIT HERE: Contact buttons. Paste each URL in the matching href. -->
+        <div class="socials reveal">
+          <!-- EDIT HERE: Paste your LinkedIn profile URL in href below -->
+          <a class="social cut" href="https://www.linkedin.com/in/bmdarshan/" target="_blank" rel="noopener"><span class="cut__in"><svg class="ic ic--brand"><use href="#i-linkedin"/></svg>LinkedIn</span></a>
+          <!-- EDIT HERE: Paste your GitHub profile URL in href below -->
+          <a class="social cut" href="https://github.com/Darshan-B-M" target="_blank" rel="noopener"><span class="cut__in"><svg class="ic ic--brand"><use href="#i-github"/></svg>GitHub</span></a>
+          <!-- EDIT HERE (optional): Add LeetCode / Instagram / other buttons by copying a button above and changing
+               the href and the label. (Your resume has no LeetCode or Instagram, so they are left out.) -->
+          <!-- EDIT HERE: Change the email address in the href (after mailto:) -->
+          <a class="social cut" href="mailto:darshanbm15@gmail.com"><span class="cut__in"><svg class="ic ic--brand"><use href="#i-mail"/></svg>Email</span></a>
+          <!-- EDIT HERE: Change the phone number in the href (after tel:) -->
+          <a class="social cut" href="tel:+918792183894"><span class="cut__in"><svg class="ic ic--brand"><use href="#i-phone"/></svg>Phone</span></a>
+        </div>
+
+        <!-- EDIT HERE: Message form. There is NO backend: "Send message" opens the visitor's email app with the
+             text filled in, addressed to the email in data-email below. Change data-email to your address. -->
+        <form class="form cut reveal" id="contact-form" data-email="darshanbm15@gmail.com"><div class="cut__in">
+          <h3>Send a message</h3>
+          <div class="form__row">
+            <input type="text" name="name" placeholder="Name" aria-label="Name" required autocomplete="name">
+            <input type="text" name="subject" placeholder="Subject" aria-label="Subject" required>
+          </div>
+          <textarea name="message" rows="5" placeholder="Message" aria-label="Message" required></textarea>
+          <button type="submit" class="btn btn--light cut"><span class="cut__in">Send message <svg class="ic"><use href="#i-send"/></svg></span></button>
+          
+        </div></form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================================
+       FOOTER
+       EDIT HERE: Change the name in the copyright line. The year updates automatically.
+       ===================================================================== -->
+  <footer class="footer">
+    <p></span>Darshan B M</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
